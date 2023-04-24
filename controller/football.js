@@ -14,7 +14,7 @@ export const getFootball = async (req, res) => {
   try {
     const { id } = req.params;
 
-    const ootball = await Football.findById(id);
+    const football = await Football.findById(id);
     res.json(football);
   } catch (error) {
     console.log(error.message);

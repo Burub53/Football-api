@@ -9,4 +9,4 @@ const insertData = async () => {
     db.close();
   };
   
-  insertData();
+insertData();

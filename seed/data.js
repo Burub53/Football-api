@@ -1,4 +1,4 @@
-import db from "../db/connetion.js"
+import db from "../db/connection.js"
 import footballData from "../db/football-data.json" assert {type: "json"}
 import footballSchema from "../models/football.js"
 
